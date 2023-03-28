@@ -1,0 +1,58 @@
+
+.boton1 img{
+    width: 15px;
+    height: 15px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(164, 71, 250);
+  }
+
+.boton1{
+ background-color: rgb(240, 240, 240);
+ border: 5px;
+ text-align: center;
+ border-radius: 10px;
+ padding: 10px 20px;
+}
+  .botones span{
+    font-size: 15px;
+    color: rgb(164, 71, 250);
+  }
+
+.boton2{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.texto1{
+    margin: 0px;
+    font-size: 50px;
+    color:rgb(92, 91, 91);
+}
+.texto2{
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    color: rgb(151, 150, 150);
+}
+
+.texto{
+ align-items: center;
+}
+
+.seccion1{
+background-image: url("../IMAGENES/hero-illustration.svg");
+background-repeat: no-repeat;
+background-position: right center;
+background-size: contain;
+margin-top: 50px;
+margin-right: 90px;
+min-height: 500px;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+}
