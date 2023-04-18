@@ -1,10 +1,10 @@
 .Seccion4 {
-
+    margin-top: 50px;
     align-items: left;
 	display: flex;
 	flex-direction: row;
-	height: 80vh;
-    background-color:#DCDCDC;
+	height: 70vh;
+    background-color:#f4f4fe;
 }
 .comillas{
     align-content: left;
@@ -19,8 +19,8 @@
 
 
 .imagenpersona{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 .izquierda {
@@ -30,12 +30,16 @@
 	align-items: left;
 }
 
+
 .texto {
     margin-top:-76px;
     margin-left:150px;
     width: 100%;
     font-size: 20px;
+    color: #7c7c94;
+
 }
+
 
 .botones{
     margin-top: 12px;
@@ -53,7 +57,7 @@
     padding:15px;
     background-color: white;
     border-radius: 20%;
-    border: 0.4px solid grey;
+    border: 0.4px solid rgb(212, 210, 210);
     
 }
 
@@ -69,3 +73,70 @@ margin-top: -40px;
 	align-items: center;
 	justify-content: center;
 }
+
+
+
+
+
+
+.Footer{
+    height: 40vh;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../IMAGENES/fondofooter.png");
+    background-position: top top;
+}
+.textoarriba1{
+font-size: 30px;
+margin-top: 150px;
+justify-content: center;
+}
+
+.botoms{
+align-items: center;
+
+}
+  .botom1{
+    font-size: 18px;
+    background-color: #ea4c89;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+    margin: 8px;
+    text-align: center;
+    height: 50px;
+    width: 145px;
+  }
+
+.balonbasket{
+    float: left;
+    align-items: left;
+justify-content: left;
+}
+.be{
+    float: left;
+    align-items: left;
+justify-content: left;
+}
+    .botom2{
+    font-size: 18px;
+    background-color: #1969fe;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: none;
+    display: inline-block;
+    margin: 8px;
+    text-align: center;
+    height: 50px;
+    width: 145px;
+
+    }
+  .copyright{
+    margin-top: 140px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:#818181
+  }
