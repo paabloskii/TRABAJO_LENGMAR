@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
 .header-grid {
     display: grid;
     grid-template-columns: 80px auto auto auto auto auto auto auto;
@@ -21,4 +23,139 @@
     font-family: 'Inter', sans-serif;
     font-size: 35px;
     color: rgb(68, 68, 68);
+}
+
+.Images{
+    width: 350px;
+    height: 290px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#Blanco{
+    color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: #766df4;
+    border: none;
+    border-radius: 10px;
+    width: 135px;
+}
+
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.Titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: rgb(72, 75, 99);
+}
+
+.Subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: rgb(169, 171, 185);
+    font-size: 16px;
+}
+
+.Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 400px;
+    color: rgb(72, 75, 99);
+}
+
+.Azulito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    color: #766df4;
+    border: 1px solid #766df4;
+    border-radius: 10px;
+}
+
+.FilaTarjeta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 1140px;
+}
+
+.Tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Imagen{
+    display: flex;
+    width: 350px;
+    height: 290px;
+}
+
+.TituloTar{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    color: rgb(72, 75, 99);
+}
+
+.SubtituloTar{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: rgb(169, 171, 185);
+}
+
+.Texto{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.EspacioBoton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 120px;
+    justify-content: space-around;
+}
+
+.Boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95px;
+}
+
+.Refresh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
