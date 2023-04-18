@@ -1,65 +1,69 @@
-
-.boton1 img{
-    width: 15px;
-    height: 15px;
-    max-width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    color: rgb(164, 71, 250);
-  }
-
-.boton1{
- background-color: rgb(240, 240, 240);
- border: 5px;
- text-align: center;
- border-radius: 10px;
- padding: 10px 20px;
-}
-  .botones span{
-    font-size: 15px;
-    color: rgb(164, 71, 250);
-  }
-  .botones{
-    margin-block-start: 35px;
-  }
-
-.boton2{
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(240, 240, 240);
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px 20px;
-}
-.texto1{
-    margin: 0px;
-    font-size: 50px;
-    color:rgb(92, 91, 91);
-}
-.texto2{
-    margin: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 34px;
-    color: rgb(151, 150, 150);
+.botoon1 img {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(164, 71, 250);
 }
 
-.texto{
- align-items: center;
- position: absolute;
- margin-top: 170px;
- margin-left: 100px;
+.botoon1 {
+  background-color: rgb(240, 240, 240);
+  border: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
-.seccion1{
-background-image: url("../IMAGENES/hero-illustration.svg");
-background-repeat: no-repeat;
-background-position: right center;
-background-size: contain;
-margin-top: 50px;
-margin-right: 90px;
-min-height: 500px;
-padding-bottom: 50px;
+.botoones span {
+  font-size: 15px;
+  color: rgb(164, 71, 250);
 }
+
+.botoones {
+  margin-block-start: 35px;
+}
+
+.botoon2 {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.textoo1 {
+  margin: 0px;
+  font-size: 50px;
+  color: rgb(92, 91, 91);
+}
+
+.textoo2 {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 34px;
+  color: rgb(151, 150, 150);
+}
+
+.texxto1 {
+  align-items: center;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+
+.seccion1 {
+  background-image: url("../IMAGENES/hero-illustration.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  margin-top: 50px;
+  margin-right: 90px;
+  min-height: 500px;
+  padding-bottom: 50px;
+  width: 1300px;
+}
+
 
 .Seccion2 {
   background-image: url("../IMAGENES/illustration.svg");
@@ -74,26 +78,377 @@ padding-bottom: 50px;
 
 }
 
-.textoseccion2{
+.textoseccion2 {
   display: flex;
   flex-direction: column;
   position: absolute;
   right: 200px;
-  top: 95%;
+  top: 100%;
   padding-top: 50px;
 }
 
-.ima1, .ima2, .ima3{
+.imaa1,.imaa2,.imaa3 {
   width: 80px;
   height: 100px;
   float: left;
   margin-left: -10px;
 }
 
-h3{
+.tituloo1,.tituloo2,.tituloo3 {
   margin-inline-start: 80px;
 }
-.sub1,.sub2,.sub3{
+
+.sub1,.sub2,.sub3 {
   color: grey;
   margin-inline-start: 80px;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.imagen-logo {
+  height: 48px;
+  width: 48px;
+  border-radius: 20px;
+  margin-top: 13px;
+  margin-bottom: -20px;
+  box-shadow: 0px 0px 12px -7px;
+}
+
+.texto {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  margin-left: -20%;
+  color: rgb(68, 68, 68);
+}
+
+.texto-peq {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgb(68, 68, 68);
+  margin-top: 25px;
+}
+
+.texto-peq:hover:not(.active) {
+  color: rgb(118, 109, 244);
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 6% 6.5% 8% 8% 8% 7% 8% 12% 10% 21.5%;
+  margin: -10px;
+  box-shadow: 0px -20px 10px 10px;
+}
+
+.flex-container>div {
+  width: 142px;
+  height: 75px;
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: rgb(118, 109, 244);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: rgb(96, 88, 199);
+}
+
+.Images {
+  width: 350px;
+  height: 290px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#Blanco {
+  color: white;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: #766df4;
+  border: none;
+  border-radius: 10px;
+  width: 135px;
+}
+
+.Contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.Titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: rgb(72, 75, 99);
+}
+
+.Subtitulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: rgb(169, 171, 185);
+  font-size: 16px;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  width: 400px;
+  color: rgb(72, 75, 99);
+}
+
+.Azulito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 50px;
+  color: #766df4;
+  border: 1px solid #766df4;
+  border-radius: 10px;
+}
+
+.FilaTarjeta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 1140px;
+}
+
+.Tarjeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Imagen {
+  display: flex;
+  width: 350px;
+  height: 290px;
+}
+
+.TituloTar {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  color: rgb(72, 75, 99);
+}
+
+.SubtituloTar {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  color: rgb(169, 171, 185);
+}
+
+.Texto {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.EspacioBoton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 120px;
+  justify-content: space-around;
+}
+
+.Boton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95px;
+}
+
+.Refresh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Seccion4 {
+  margin-top: 50px;
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  background-color: #f4f4fe;
+}
+
+.comillas {
+  align-content: left;
+  margin-right: -23px;
+  margin-top: 160px;
+  margin-left: 70px;
+  height: 60px;
+  width: 60px;
+
+}
+
+
+
+.imagenpersona {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.izquierda {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+.texto-sec4 {
+  margin-top: -76px;
+  margin-left: 150px;
+  width: 100%;
+  font-size: 20px;
+  color: #7c7c94;
+
+}
+
+
+.botones {
+  margin-top: 12px;
+  align-items: right;
+  float: right;
+}
+
+.boton1,
+.boton2 {
+  opacity: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.botonizq,
+.botondca {
+  margin: 3px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 20%;
+  border: 0.4px solid rgb(212, 210, 210);
+
+}
+
+.nombrepersona {
+  margin-left: 60px;
+  margin-top: -40px;
+}
+
+.derecha {
+  margin-left: 90px;
+  margin-top: 110px;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+.Footer {
+  height: 40vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../IMAGENES/fondofooter.png");
+  background-position: top top;
+}
+
+.textoarriba1 {
+  font-size: 30px;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+.botoms {
+  align-items: center;
+
+}
+
+.botom1 {
+  font-size: 18px;
+  background-color: #ea4c89;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  border: none;
+  margin: 8px;
+  text-align: center;
+  height: 50px;
+  width: 145px;
+}
+
+.balonbasket {
+  float: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.be {
+  float: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.botom2 {
+  font-size: 18px;
+  background-color: #1969fe;
+  color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  border: none;
+  display: inline-block;
+  margin: 8px;
+  text-align: center;
+  height: 50px;
+  width: 145px;
+
+}
+
+.copyright {
+  margin-top: 140px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #818181
 }
