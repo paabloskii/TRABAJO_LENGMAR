@@ -19,6 +19,9 @@
     font-size: 15px;
     color: rgb(164, 71, 250);
   }
+  .botones{
+    margin-block-start: 35px;
+  }
 
 .boton2{
     background-color: rgb(255, 255, 255);
@@ -42,6 +45,9 @@
 
 .texto{
  align-items: center;
+ position: absolute;
+ margin-top: 170px;
+ margin-left: 100px;
 }
 
 .seccion1{
@@ -52,7 +58,42 @@ background-size: contain;
 margin-top: 50px;
 margin-right: 90px;
 min-height: 500px;
-justify-content: center;
-align-items: center;
 padding-bottom: 50px;
+}
+
+.Seccion2 {
+  background-image: url("../IMAGENES/illustration.svg");
+  background-size: 500px;
+  background-color: #f4f4fe;
+  background-repeat: no-repeat;
+  background-position: left center;
+  min-height: 600px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  max-height: max-content;
+
+}
+
+.textoseccion2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 200px;
+  top: 95%;
+  padding-top: 50px;
+}
+
+.ima1, .ima2, .ima3{
+  width: 80px;
+  height: 100px;
+  float: left;
+  margin-left: -10px;
+}
+
+h3{
+  margin-inline-start: 80px;
+}
+.sub1,.sub2,.sub3{
+  color: grey;
+  margin-inline-start: 80px;
 }
