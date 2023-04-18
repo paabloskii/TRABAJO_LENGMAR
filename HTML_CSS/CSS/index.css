@@ -1,29 +1,60 @@
 body{
     font-family: 'Inter', sans-serif;
 }
-.header-grid {
-    display: grid;
-    grid-template-columns: 80px auto auto auto auto auto auto auto;
-    gap: 10px;
-    padding: 10px;
-    box-shadow: 0px 2px 3px 0px gray;
-    height: 85px;
-    position: relative;
-}
 
 .imagen-logo {
-    box-shadow: 0px 0px 3px 0px gray;
-    height: 70px;
-    width: 70px;
-    border-radius: 30px;
-    margin-top: 10%;
+    height: 48px;
+    width: 48px;
+    border-radius: 20px;
+    margin-top: 13px;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 12px -7px;
 }
 
 .texto {
     font-family: 'Inter', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
+    line-height: 45px;
+    margin-left: -20%;
     color: rgb(68, 68, 68);
 }
+
+.texto-peq {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(68, 68, 68);
+    margin-top: 25px;
+}
+
+.texto-peq:hover:not(.active) {
+    color: rgb(118, 109, 244);
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 60px 100px 120px 100px 110px 90px 100px 120px 300px 150px;
+    margin: -10px;
+    box-shadow: 10px -20px 15px 10px;
+  }
+.flex-container > div {
+    width: 150px;
+    height: 75px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: rgb(118, 109, 244);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 15px;
+  }
+  .btn:hover {
+    background-color:rgb(96, 88, 199);
+  }
 
 .Images{
     width: 350px;
